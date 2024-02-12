@@ -36,6 +36,57 @@
             </div>
         </div>
     </main>
+    <div class="bg_blue">
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="{{ Vite::asset('resources/images/buy-comics-digital-comics.png') }}"
+                            alt="digital-comics">
+                        <span class="uppercase">
+                            digital comics
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="{{ Vite::asset('resources/images/buy-comics-merchandise.png') }}"
+                            alt="digital-comics">
+                        <span class="uppercase">
+                            dc merchandise
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="{{ Vite::asset('resources/images/buy-comics-shop-locator.png') }}"
+                            alt="digital-comics">
+                        <span class="uppercase">
+                            subscription
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="{{ Vite::asset('resources/images/buy-comics-subscriptions.png') }}"
+                            alt="digital-comics">
+                        <span class="uppercase">
+                            comic shop locator
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="{{ Vite::asset('resources/images/buy-comics-digital-comics.png') }}"
+                            alt="digital-comics">
+                        <span class="uppercase">
+                            dc power visa
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
     @include('partials.footer')
 </body>
 

@@ -65,7 +65,7 @@ header {
 
     .current {
         color: white;
-        background-color: $primary;
+        background-color: #0282F9;
         position: absolute;
         padding: 10px 20px;
         font-weight: 700;
@@ -94,13 +94,50 @@ main {
 
         button {
             color: white;
-            background-color: $primary;
+            background-color: #0282F9;
             font-size: 15px;
             font-weight: 600;
             padding: 15px 50px;
             margin: auto;
             width: 20%;
         }
+
+    }
+
+}
+
+.bg_blue {
+    background-color: #0282F9;
+
+    ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        width: 100%;
+        padding: 40px 0;
+        margin: 0;
+
+        li {
+            width: calc(100% / 5);
+
+            a {
+                text-decoration: none;
+                color: white;
+
+                display: flex;
+                align-items: center;
+
+                img {
+                    height: 50px;
+                    margin: 0 10px;
+                }
+
+                span {
+                    text-transform: uppercase;
+                }
+            }
+        }
+
 
     }
 }
