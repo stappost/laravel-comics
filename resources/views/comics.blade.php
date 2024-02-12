@@ -17,6 +17,24 @@
 
 <body>
     @include('partials.header')
+    <main>
+        <div class="bg_black">
+            <div class="container">
+                <div class="row">
+                    @foreach ($comics as $comic)
+                        <div class="col-2">
+                            <div class="my_card">
+                                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
+                                <div class="title">{{ $comic['series'] }}</div>
+                            </div>
+                        </div>
+                    @endforeach
+                    <button>LOAD MORE</button>
+                </div>
+
+            </div>
+        </div>
+    </main>
     @include('partials.footer')
 </body>
 

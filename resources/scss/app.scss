@@ -56,6 +56,39 @@ header {
     }
 }
 
+main {
+    img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .title {
+        color: white;
+        text-transform: uppercase;
+        margin: 10px 0 20px 0;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+
+    .bg_black {
+        background-color: #000;
+        padding: 50px;
+
+        button {
+            color: white;
+            background-color: $primary;
+            font-size: 15px;
+            font-weight: 600;
+            padding: 15px 50px;
+            margin: auto;
+            width: 20%;
+        }
+
+    }
+}
+
+
 footer {
     .bg_img {
         background-image: url('../images/footer-bg.jpg');
