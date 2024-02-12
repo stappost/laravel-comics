@@ -62,3 +62,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Scaffolding
+1- creare file header
+2- creare file footer
+3- includere nella pagina header e footer
+4- mettere nella cartella config l'array comics
+5- ciclare nella pagina i comic per mostrarli a video
+6- creare gli altri componenti della pagina
