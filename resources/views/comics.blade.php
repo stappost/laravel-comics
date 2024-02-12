@@ -17,6 +17,7 @@
 
 <body>
     @include('partials.header')
+    @include('partials.jumbotron')
     <main>
         <div class="bg_black">
             <div class="container">

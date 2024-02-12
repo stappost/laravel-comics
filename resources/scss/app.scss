@@ -56,6 +56,23 @@ header {
     }
 }
 
+.jumbo {
+    background-image: url("../images/jumbotron.jpg");
+    height: 500px;
+    margin-top: 20px;
+    background-size: cover;
+    position: relative;
+
+    .current {
+        color: white;
+        background-color: $primary;
+        position: absolute;
+        padding: 10px 20px;
+        font-weight: 700;
+        bottom: -20px;
+    }
+}
+
 main {
     img {
         width: 200px;
