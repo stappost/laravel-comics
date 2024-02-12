@@ -1,1 +1,55 @@
 @import '~bootstrap/scss/bootstrap';
+
+header {
+    height: 100px;
+
+    .logo {
+        height: 50%;
+        margin: 10px 0;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    .col-12 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        align-items: center;
+
+        li {
+            padding: 30px 10px;
+
+            a {
+                text-decoration: none;
+                color: #000;
+                font-size: 14px;
+                text-transform: uppercase;
+                padding-bottom: 50px;
+                font-weight: 600;
+
+                &:hover {
+                    color: $primary;
+                    border-bottom: 5px solid $primary;
+                }
+            }
+
+            .active {
+                color: $primary;
+                border-bottom: 5px solid $primary;
+            }
+
+        }
+    }
+
+    .search {
+        padding: 30px 10px;
+
+    }
+}
