@@ -53,3 +53,69 @@ header {
 
     }
 }
+
+footer {
+    .bg_img {
+        background-image: url('../images/footer-bg.jpg');
+
+        .text_white {
+            color: #fff;
+            margin: 25px;
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 20px;
+            margin-right: 20px;
+
+            li {
+                padding: 5px 0;
+
+                a {
+                    text-decoration: none;
+                    color: grey;
+
+                }
+            }
+        }
+
+        .col-12 {
+            display: flex;
+            background-image: url('../resources/images/dc-logo-bg.png');
+            background-position: right;
+            background-repeat: no-repeat;
+
+        }
+
+    }
+
+    .bg_grey {
+        background-color: rgb(71, 71, 71);
+        padding: 20px 0;
+
+        .row {
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        button {
+            border: 2px solid $primary;
+            color: white;
+            padding: 5px;
+            background-color: transparent;
+        }
+
+        .text_right {
+
+            span {
+                margin-right: 15px;
+                color: $primary;
+            }
+
+            a {
+                vertical-align: middle;
+                margin: 0 5px;
+            }
+        }
+    }
+}
