@@ -19,53 +19,55 @@
                 </div>
                 <div class="menu">
                     <ul>
-                        <li class="uppercase">
-                            <a href="">
+                        <li class="uppercase ">
+                            <a href="" class="{{ Route::currentRouteName() === 'characters' ? 'active' : '' }}">
                                 characters
                             </a>
                         </li>
-                        <li class="uppercase">
-                            <a href="">
+                        <li class="uppercase ">
+                            <a href="{{ route('comics') }}"
+                                class="{{ Route::currentRouteName() === 'comics' ? 'active' : '' }}">
                                 comics
                             </a>
                         </li>
-                        <li class="uppercase">
-                            <a href="">
+                        <li class="uppercase ">
+                            <a href="" class="{{ Route::currentRouteName() === 'movies' ? 'active' : '' }}">
                                 movies
                             </a>
                         </li>
-                        <li class="uppercase">
-                            <a href="">
+                        <li class="uppercase ">
+                            <a href="" class="{{ Route::currentRouteName() === 'tv' ? 'active' : '' }}">
                                 tv
                             </a>
                         </li>
                         <li class="uppercase">
-                            <a href="">
+                            <a href="" class=" {{ Route::currentRouteName() === 'games' ? 'active' : '' }}">
                                 games
                             </a>
                         </li>
-                        <li class="uppercase">
-                            <a href="">
+                        <li class="uppercase ">
+                            <a href=""
+                                class="{{ Route::currentRouteName() === 'collectibles' ? 'active' : '' }}">
                                 collectibles
                             </a>
                         </li>
-                        <li class="uppercase">
-                            <a href="">
+                        <li class="uppercase ">
+                            <a href="" class="{{ Route::currentRouteName() === 'videos' ? 'active' : '' }}">
                                 videos
                             </a>
                         </li>
-                        <li class="uppercase">
-                            <a href="">
+                        <li class="uppercase ">
+                            <a href="" class="{{ Route::currentRouteName() === 'fans' ? 'active' : '' }}">
                                 fans
                             </a>
                         </li>
-                        <li class="uppercase">
-                            <a href="">
+                        <li class="uppercase ">
+                            <a href="" class="{{ Route::currentRouteName() === 'news' ? 'active' : '' }}">
                                 news
                             </a>
                         </li>
-                        <li class="uppercase">
-                            <a href="">
+                        <li class="uppercase ">
+                            <a href="" class="{{ Route::currentRouteName() === 'shop' ? 'active' : '' }}">
                                 shop
                             </a>
                         </li>
