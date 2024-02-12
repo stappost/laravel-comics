@@ -1,5 +1,11 @@
 @import '~bootstrap/scss/bootstrap';
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     height: 100px;
 
@@ -53,13 +59,28 @@ header {
     .search {
         padding: 30px 10px;
 
+        .border_blue {
+            border-bottom: 3px solid #0282F9;
+            vertical-align: middle;
+
+            input {
+                border: none;
+                width: 40%;
+                text-align: end;
+                margin-right: 5px;
+                font-weight: 600;
+            }
+
+            i {}
+        }
+
     }
 }
 
 .jumbo {
     background-image: url("../images/jumbotron.jpg");
     height: 500px;
-    margin-top: 20px;
+    margin-top: 5px;
     background-size: cover;
     position: relative;
 

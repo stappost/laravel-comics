@@ -4,7 +4,8 @@
             <div class="col-12">
                 <ul class="list-unstyled text-white d-flex my-0 justify-content-end gap-3">
                     <li class="fw-semibold fs-6 me-5">DC POWER VISA</li>
-                    <li class="fw-semibold fs-6">ADDICTIONAL DC SITES</li>
+                    <li class="fw-semibold fs-6">ADDICTIONAL DC SITES <i class="fa-solid fa-caret-down"
+                            style="color: #fff;"></i></li>
                 </ul>
             </div>
         </div>
@@ -68,13 +69,16 @@
                         </li>
                         <li class="uppercase ">
                             <a href="" class="{{ Route::currentRouteName() === 'shop' ? 'active' : '' }}">
-                                shop
+                                shop <i class="fa-solid fa-caret-down" style="color: #0282F9;"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
                 <div class="search">
-                    <input type="text">
+                    <div class="d-flex justify-content-end border_blue">
+                        <input type="text" value="Search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
                 </div>
             </div>
         </div>
