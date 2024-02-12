@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+.small {
+    font-size: 7px;
+    position: relative;
+    bottom: 6px;
+}
+
 header {
     height: 100px;
 
@@ -65,13 +71,10 @@ header {
 
             input {
                 border: none;
-                width: 40%;
                 text-align: end;
                 margin-right: 5px;
                 font-weight: 600;
             }
-
-            i {}
         }
 
     }
@@ -167,16 +170,20 @@ main {
 footer {
     .bg_img {
         background-image: url('../images/footer-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 10px 0;
 
         .text_white {
             color: #fff;
-            margin: 25px;
+            margin: 25px 0;
         }
 
         ul {
             list-style: none;
             margin-bottom: 20px;
-            margin-right: 20px;
+            margin-right: 50px;
+            padding: 0;
 
             li {
                 padding: 5px 0;

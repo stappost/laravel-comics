@@ -76,6 +76,15 @@
                         </ul>
                     </div>
                 </div>
+                <div class="col-12 mb-4">
+                    <div class="text-secondary">
+                        All Site Content TM and 2020 DC Entertrainment, unless otherwise <a href=""
+                            class="link-underline link-underline-opacity-0">noted here</a>. All rights reserved.
+                        <div>
+                            <a href="" class="link-underline link-underline-opacity-0">Cookies Settings</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

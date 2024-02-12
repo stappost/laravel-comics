@@ -3,7 +3,8 @@
         <div class="row ">
             <div class="col-12">
                 <ul class="list-unstyled text-white d-flex my-0 justify-content-end gap-3">
-                    <li class="fw-semibold fs-6 me-5">DC POWER VISA</li>
+                    <li class="fw-semibold fs-6 me-5">DC POWER <span class="small">sm</span> VISA <i
+                            class="fa-regular fa-registered" style="color: #fff;"></i></li>
                     <li class="fw-semibold fs-6">ADDICTIONAL DC SITES <i class="fa-solid fa-caret-down"
                             style="color: #fff;"></i></li>
                 </ul>
