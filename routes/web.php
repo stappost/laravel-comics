@@ -13,7 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/comics', function () {
+Route::get('/', function () {
     $comics = config('comics');
     return view('comics', compact('comics'));
 })->name('comics');
+
+Route::get('/{param}', function($id) {
+    $comics = config('comics');
+    $detail = NULL;
+    foreach($comics as $comic){
+        if($comic['id'] == $id){
+            $detail = $comic;
+        }
+    }
+    return view('details', compact('detail'));
+})->name('details');
