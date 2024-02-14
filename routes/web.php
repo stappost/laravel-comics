@@ -20,11 +20,11 @@ Route::get('/', function () {
 
 Route::get('/{param}', function($id) {
     $comics = config('comics');
-    $detail = NULL;
-    foreach($comics as $comic){
-        if($comic['id'] == $id){
-            $detail = $comic;
+    $comic = NULL;
+    foreach($comics as $item){
+        if($item['id'] == $id){
+            $comic = $item;
         }
     }
-    return view('details', compact('detail'));
+    return view('details', compact('comic'));
 })->name('details');

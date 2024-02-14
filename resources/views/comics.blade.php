@@ -1,6 +1,11 @@
 @extends('layouts.comic')
 
 @section('content')
+    <div class="container position-relative">
+        <div class="current">
+            CURRENT SERIES
+        </div>
+    </div>
     <main>
         <div class="bg_black">
             <div class="container">
